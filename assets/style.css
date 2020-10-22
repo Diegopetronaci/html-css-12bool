@@ -3,20 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  margin-bottom: 100px;
-}
-.debug [class*="col_"] {
+
+.debug [class*="col-"] {
   height: 200px;
   border: 1px solid black;
 }
 
-.debug_2 [class*="col_"] {
+.debug_2 [class*="col-"] {
   height: 197px;
   border: 3px solid white;
 }
 
-[class*="col_"] {
+[class*="col-"] {
   float: left;
 }
 
@@ -25,94 +23,94 @@ body{
   margin: 0 auto;
 }
 
-.container::after{
+.row:after{
   content: "";
   display: table;
   clear: both;
 }
 
 /* colonne */
-.col_1{
+.col-1{
   width: calc((100% / 12) * 1);
 }
-.col_2{
+.col-2{
   width: calc((100% / 12) * 2);
 }
-.col_3{
+.col-3{
   width: calc((100% / 12) * 3);
 }
-.col_4{
+.col-4{
   width: calc((100% / 12) * 4);
 }
-.col_5{
+.col-5{
   width: calc((100% / 12) * 5);
 }
-.col_6{
+.col-6{
   width: calc((100% / 12) * 6);
 }
-.col_7{
+.col-7{
   width: calc((100% / 12) * 7);
 }
-.col_8{
+.col-8{
   width: calc((100% / 12) * 8);
 }
-.col_9{
+.col-9{
   width: calc((100% / 12) * 9);
 }
-.col_10{
+.col-10{
   width: calc((100% / 12) * 10);
 }
-.col_11{
+.col-11{
   width: calc((100% / 12) * 11);
 }
-.col_12{
+.col-12{
   width: calc((100% / 12) * 12);
 }
 /* colonne */
 
 /* offsets */
-.offsets_col_1{
+.offsets_col-1{
   margin-left: calc((100% / 12) * 1);
 }
-.offsets_col_2{
+.offsets_col-2{
   margin-left: calc((100% / 12) * 2);
 }
-.offsets_col_3{
+.offsets_col-3{
   margin-left: calc((100% / 12) * 3);
 }
-.offsets_col_4{
+.offsets_col-4{
   margin-left: calc((100% / 12) * 4);
 }
-.offsets_col_5{
+.offsets_col-5{
   margin-left: calc((100% / 12) * 5);
 }
-.offsets_col_6{
+.offsets_col-6{
   margin-left: calc((100% / 12) * 6);
 }
-.offsets_col_7{
+.offsets_col-7{
   margin-left: calc((100% / 12) * 7);
 }
-.offsets_col_8{
+.offsets_col-8{
   margin-left: calc((100% / 12) * 8);
 }
-.offsets_col_9{
+.offsets_col-9{
   margin-left: calc((100% / 12) * 9);
 }
-.offsets_col_10{
+.offsets_col-10{
   margin-left: calc((100% / 12) * 10);
 }
-.offsets_col_11{
+.offsets_col-11{
   margin-left: calc((100% / 12) * 11);
 }
 /* offsets */
 
 /* utility */
 
-.row_pink{
+.bg_pink{
   background-color: pink;
 }
 
-.row_red{
+.bg_red{
   background-color: red;
 }
 
