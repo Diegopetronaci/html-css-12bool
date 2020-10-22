@@ -3,15 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body{
+  margin-bottom: 100px;
+}
 .debug [class*="col_"] {
   height: 200px;
   border: 1px solid black;
 }
 
 .debug_2 [class*="col_"] {
-  height: 200px;
-  border: 5px solid white;;
+  height: 197px;
+  border: 3px solid white;
 }
 
 [class*="col_"] {
@@ -105,9 +107,6 @@
 /* offsets */
 
 /* utility */
-.border_white{
-  border: 3px solid white;
-}
 
 .row_pink{
   background-color: pink;
@@ -117,8 +116,7 @@
   background-color: red;
 }
 
-.pd_2{
-  padding: 3px;
+.prova{
+  padding-right: 15px;
 }
-
 /* utility */
